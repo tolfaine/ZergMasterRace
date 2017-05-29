@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Dll.cpp" />
+    <ClCompile Include="Source\ExampleAIModule.cpp" />
+    <ClCompile Include="BaseManager.cpp">
+      <Filter>Managers\BaseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildOrderManager.cpp">
+      <Filter>Managers\BuildOrderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InformationManager.cpp">
+      <Filter>Managers\InformationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MoodManager.cpp">
+      <Filter>Managers\MoodManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoutManager.cpp">
+      <Filter>Managers\ScoutManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInfoManager.cpp">
+      <Filter>Managers\TextInfoManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerManager.cpp">
+      <Filter>Managers\WorkerManager-depreciated</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitsManager.cpp">
+      <Filter>Managers\UnitsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TempoManager.cpp">
+      <Filter>Managers\Trash</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyManager.cpp">
+      <Filter>Managers\MoneyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Managers\BaseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MorphManager.cpp">
+      <Filter>Managers\MorphManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SupplyManager.cpp">
+      <Filter>Managers\SupplyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Managers\BaseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmyManager.cpp">
+      <Filter>Managers\ArmyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DefenseManager.cpp">
+      <Filter>Managers\DefenseManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ExampleAIModule.h" />
+    <ClInclude Include="..\include\BWTA\BaseLocation.h">
+      <Filter>BWTA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BaseManager.h">
+      <Filter>Managers\BaseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BuildOrderManager.h">
+      <Filter>Managers\BuildOrderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\Chokepoint.h">
+      <Filter>BWTA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\WorkerManager.h">
+      <Filter>Managers\WorkerManager-depreciated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UnitsManager.h">
+      <Filter>Managers\UnitsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TextInfoManager.h">
+      <Filter>Managers\TextInfoManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TempoManager.h">
+      <Filter>Managers\Trash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ScoutManager.h">
+      <Filter>Managers\ScoutManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\Region.h">
+      <Filter>BWTA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\Polygon.h">
+      <Filter>BWTA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\RectangleArray.h">
+      <Filter>BWTA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MoodManager.h">
+      <Filter>Managers\MoodManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\InformationManager.h">
+      <Filter>Managers\InformationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWTA\BWTA.h">
+      <Filter>BWTA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MorphManager.h">
+      <Filter>Managers\MorphManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MoneyManager.h">
+      <Filter>Managers\MoneyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SupplyManager.h">
+      <Filter>Managers\SupplyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Base.h">
+      <Filter>Managers\BaseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Worker.h">
+      <Filter>Managers\BaseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BWAPI.h" />
+    <ClInclude Include="..\include\ArmyManager.h">
+      <Filter>Managers\ArmyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DefenseManager.h">
+      <Filter>Managers\DefenseManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BWTA">
+      <UniqueIdentifier>{db5c0e39-33b9-47fa-aa07-d1c159c63c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{45375997-f71b-47c4-b105-6454b9f86b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\SupplyManager">
+      <UniqueIdentifier>{94976349-e9f9-4638-920a-b77d28b42a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\ScoutManager">
+      <UniqueIdentifier>{ad0cf175-7058-4aa5-9b88-298123cd7232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\TextInfoManager">
+      <UniqueIdentifier>{ca1904cb-735f-4129-92e2-1bd61fd6f8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Trash">
+      <UniqueIdentifier>{ec72d4b8-c629-49d0-a628-3d44298076d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\UnitsManager">
+      <UniqueIdentifier>{af232ec8-fdd9-43fe-8894-889eb0bf6547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\MorphManager">
+      <UniqueIdentifier>{6b971d1c-e4e2-4eb7-a90c-a60d18ffee1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\MoneyManager">
+      <UniqueIdentifier>{af05bddd-482a-4ff4-afbe-f0a2f57d9d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\MoodManager">
+      <UniqueIdentifier>{c25d8d25-944f-4397-8573-4e0ca88ffee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\BaseManager">
+      <UniqueIdentifier>{d97ff185-581f-4fa0-aac3-d619735b7d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\BuildOrderManager">
+      <UniqueIdentifier>{327e3424-6225-426f-afa5-3eb397ee9532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\InformationManager">
+      <UniqueIdentifier>{ca19b25b-9ecb-40bf-9588-fa55bbedec30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\WorkerManager-depreciated">
+      <UniqueIdentifier>{f639e67d-6f63-49cf-924f-30bfc7687828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\ArmyManager">
+      <UniqueIdentifier>{3b3f2458-92e0-49db-a6d4-e3b803518581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\DefenseManager">
+      <UniqueIdentifier>{8aa1517f-6a2d-46ad-a16c-27072100c94b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

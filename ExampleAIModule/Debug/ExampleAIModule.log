@@ -1,0 +1,33 @@
+﻿Build started 28/04/2017 12:29:54.
+     1>Project "D:\Tolfaine\Jeux\StarCraft\BWAPI\ExampleAIModule\ExampleAIModule.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Tolfaine\Logiciels\VC\bin\CL.exe /c /I../include /Zi /nologo /W3 /WX- /MP /Od /Oy- /D NOMINMAX /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EXAMPLEAIMODULE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BuildOrderManager.cpp MorphManager.cpp
+         MorphManager.cpp
+         BuildOrderManager.cpp
+     1>BuildOrderManager.cpp(132): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         D:\Tolfaine\Logiciels\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Tolfaine\Jeux\StarCraft\BWAPI\Debug\ExampleAIModule.dll" /INCREMENTAL:NO /NOLOGO ../lib/BWAPId.lib ../lib/BWTAd.lib "../lib/libCGAL-vc120-mt-gd-4.4.lib" "../lib/libboost_filesystem-vc120-mt-gd-1_56.lib" "../lib/libboost_thread-vc120-mt-gd-1_56.lib" "../lib/libboost_system-vc120-mt-gd-1_56.lib" "../lib/libgmp-10.lib" "../lib/libmpfr-4.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Tolfaine\Jeux\StarCraft\BWAPI\Debug\ExampleAIModule.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\ExampleAIModule.lib" /MACHINE:X86 /SAFESEH /DLL Debug\ArmyManager.obj
+         Debug\Base.obj
+         Debug\BaseManager.obj
+         Debug\BuildOrderManager.obj
+         Debug\DefenseManager.obj
+         Debug\InformationManager.obj
+         Debug\MoneyManager.obj
+         Debug\MoodManager.obj
+         Debug\MorphManager.obj
+         Debug\ScoutManager.obj
+         Debug\Dll.obj
+         Debug\ExampleAIModule.obj
+         Debug\SupplyManager.obj
+         Debug\TempoManager.obj
+         Debug\TextInfoManager.obj
+         Debug\UnitsManager.obj
+         Debug\Worker.obj
+         Debug\WorkerManager.obj
+            Creating library Debug\ExampleAIModule.lib and object Debug\ExampleAIModule.exp
+         ExampleAIModule.vcxproj -> D:\Tolfaine\Jeux\StarCraft\BWAPI\Debug\ExampleAIModule.dll
+     1>Done Building Project "D:\Tolfaine\Jeux\StarCraft\BWAPI\ExampleAIModule\ExampleAIModule.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.96
